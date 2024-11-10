@@ -1,7 +1,7 @@
 # TODO: add papers by configuration file
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
 user_name: "KashiwaByte"
-repo_name: "multimodal-arxiv-daily"
+repo_name: "RAG-VectorDatabase-arxiv-daily"
 show_authors: True
 show_links: True
 show_badge: True
@@ -12,7 +12,7 @@ publish_gitpage: False
 publish_wechat: False
 
 # file paths
-json_readme_path: './docs/multimodal-arxiv-daily.json'
+json_readme_path: './docs/RAG-VectorDatabase-arxiv-daily.json'
 
 
 
@@ -20,12 +20,9 @@ md_readme_path: 'README.md'
 
 
 keywords:
-    "multimodal":
-        filters: ["VLM","multimodal fusion","multimodal learning","Vision MoE"]
-    "computational argumentation":
-        filters: ["Computational Argumentation","Argument Mining","Argument Generation"]
-    "Argument Quality":
-        filters: ["Argument Quality ","Argument Quality Assessment"]
-    "llm debate":
-        filters: ["Debate"]
+    "VectorDatabase":
+        filters: ["vector database"]
+    "RAG":
+        filters: ["RAG"]
+
 
